@@ -19,13 +19,6 @@
       />
 
   <browser:page
-      name="language-controlpanel"
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-      class="plone.app.controlpanel.language.LanguageControlPanel"
-      permission="ploneexample.AdminManage"
-      />
-
-  <browser:page
       name="mail-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.mail.MailControlPanel"

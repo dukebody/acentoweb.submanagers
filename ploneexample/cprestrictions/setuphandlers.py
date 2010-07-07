@@ -24,7 +24,6 @@ def setupControlPanel(context):
     cp  = getToolByName(portal, 'portal_controlpanel')
     editAction(cp, 'CalendarSettings', permissions=('Manage the site administratively',))
     editAction(cp, 'HtmlFilter', permissions=('Manage the site administratively',))
-    editAction(cp, 'PloneLanguageTool', permissions=('Manage the site administratively',))
     editAction(cp, 'MailHost', permissions=('Manage the site administratively',))
     editAction(cp, 'MarkupSettings', permissions=('Manage the site administratively',))
     editAction(cp, 'SearchSettings', permissions=('Manage the site administratively',))
