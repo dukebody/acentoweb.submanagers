@@ -3,6 +3,10 @@
 	xmlns:i18n="http://xml.zope.org/namespaces/i18n">
   <object name="user" meta_type="CMF Action Category">
     <object name="preferences" meta_type="CMF Action" i18n:domain="plone">
+      <property name="permissions">
+        <element value="Manage portal"/>
+        <element value="Manage the site administratively"/>
+      </property>
       <property name="visible">True</property>
     </object>
   </object>
