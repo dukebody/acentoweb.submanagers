@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rolemap>
+  <roles>
+    <role name="Administrative Manager" />          
+  </roles>
+  <permissions>
+    <permission name="Manage the site administratively"
+                acquire="True">
+      <role name="Administrative Manager" />
+      <role name="Manager" />
+    </permission>
+    <permission name="Content rules: Manage rules"
+                acquire="True">
+      <role name="Administrative Manager" />
+      <role name="Manager" />
+    </permission>
+  </permissions>
+</rolemap>
