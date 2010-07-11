@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 version = '1.0'
 
-setup(name='ploneexample.cprestrictions',
+setup(name='acentoweb.submanagers',
       version=version,
       description="",
       long_description=open("README.txt").read() + "\n",
@@ -15,10 +15,10 @@ setup(name='ploneexample.cprestrictions',
       keywords='',
       author='Israel Saeta Pérez',
       author_email='israel.saeta@dukebody.com',
-      url='http://svn.plone.org/svn/collective/ploneexample.cprestrictions',
+      url='http://acentoweb.com',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['ploneexample'],
+      namespace_packages=['acentoweb'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
@@ -31,5 +31,4 @@ setup(name='ploneexample.cprestrictions',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
       )

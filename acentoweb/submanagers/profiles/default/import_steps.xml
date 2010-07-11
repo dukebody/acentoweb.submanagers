@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step id="submanagers-groups" version="20100210-01"
+               handler="acentoweb.submanagers.setuphandlers.setupGroups"
+               title="Setup groups for manager roles">
+  <dependency step="rolemap"/>
+ </import-step>
+ <import-step id="submanagers-controlpanel" version="20100210-01"
+               handler="acentoweb.submanagers.setuphandlers.setupControlPanel"
+               title="Setup control panel permissions">
+  <dependency step="rolemap"/>
+ </import-step>
+</import-steps>

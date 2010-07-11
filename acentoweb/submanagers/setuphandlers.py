@@ -2,7 +2,7 @@ from Products.CMFCore.utils import getToolByName
 
 def setupGroups(context):
     """Setup groups for manager roles."""
-    if context.readDataFile('ptrestrictions.setupGroups.txt') is None:
+    if context.readDataFile('submanagers.setupGroups.txt') is None:
         return
     portal = context.getSite()
     acl_users = getToolByName(portal, 'acl_users')
@@ -18,7 +18,7 @@ def editAction(controlpanel, id_, **kwargs):
 
 def setupControlPanel(context):
     """Setup control panel roles."""
-    if context.readDataFile('ptrestrictions.setupControlPanel.txt') is None:
+    if context.readDataFile('submanagers.setupControlPanel.txt') is None:
         return
     portal = context.getSite()
     cp  = getToolByName(portal, 'portal_controlpanel')

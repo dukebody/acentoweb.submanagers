@@ -8,63 +8,63 @@
       name="calendar-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.calendar.CalendarControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="filter-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.filter.FilterControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="mail-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.mail.MailControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="markup-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.markup.MarkupControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="search-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.search.SearchControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
       
   <browser:page
       name="security-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.security.SecurityControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="site-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.site.SiteControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="skins-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.skins.SkinsControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
   <browser:page
       name="types-controlpanel"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class="plone.app.controlpanel.types.TypesControlPanel"
-      permission="ploneexample.AdminManage"
+      permission="acentoweb.AdminManage"
       />
 
 </configure>

@@ -2,20 +2,20 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="ploneexample.cprestrictions">
+    i18n_domain="acentoweb.submanagers">
 
   <five:registerPackage package="." initialize=".initialize" />
 
   <permission
-      id="ploneexample.AdminManage"
+      id="acentoweb.AdminManage"
       title="Manage the site administratively"
       />
 
   <genericsetup:registerProfile
       name="default"
-      title="Example Control Panel Restrictions"
+      title="Acentoweb Restrictions for the Control Panel"
       directory="profiles/default"
-      description="Restrict the Control Panel dialog for two groups"
+      description="Restrict the Control Panel dialogs"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

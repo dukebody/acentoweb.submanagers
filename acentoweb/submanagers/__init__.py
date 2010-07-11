@@ -6,7 +6,7 @@ def initialize(context):
 from AccessControl.SecurityInfo import ModuleSecurityInfo
 from Products.CMFCore.permissions import setDefaultRoles
 
-security = ModuleSecurityInfo('ploneexample.cprestrictions')
+security = ModuleSecurityInfo('acentoweb.submanagers')
 
 security.declarePublic('Manage the site administratively')
 setDefaultRoles('Manage the site administratively', ())
